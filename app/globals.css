@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Login form CSS */
+.login-modal {
+  margin: 0 auto 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 13px #dddddd;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.login-modal h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  background: #a062e7;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+}
+.login-modal input {
+  padding: 5px 8px;
+  font-size: 15px;
+  margin: 2px 0 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.login-modal input:focus{
+  outline: none;
+}
+.login-modal label {
+  font-size: 15px;
+}
+.login-modal button {
+  background: #a062e7;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 4px 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: block;
+}
+.login-modal form {
+  padding: 15px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
